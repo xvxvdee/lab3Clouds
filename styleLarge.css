@@ -1,0 +1,152 @@
+body{
+    background: linear-gradient(120deg,#fff1e6,#f1faee,#caf0f8,#dfe7fd,#fff1e6 );
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+        margin-bottom:40px;
+}
+
+
+img{
+    border:solid 10px #edf2f4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding:20px;
+    transition: 3s;
+
+}
+
+h1,h2{
+    font-family: 'Titan One', cursive;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #e63946;
+    background-color:#ffffff;
+    margin: 0;
+    top:0;
+    padding:0;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2{
+    background-color: #277da1;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 100;
+    text-align: center;
+
+
+}
+#information{
+    background-color: #faf9f9 ;
+    padding: 20px;
+    margin:20px;
+    box-shadow:0 10px 15px #f4f1de;
+    word-wrap: break-word;
+    /* display:flex; */
+}
+
+#information .item {
+    padding:20px;
+    background-color: #caf0f8;
+}
+
+#categories{
+    /* display:flex; */
+    padding: 20px;
+    margin-bottom:auto auto;
+}
+
+.itemInfo{
+    padding: 20px;
+    margin: 20px;;
+}
+
+dd{
+   margin:10px auto;
+   font-size: 1.2em;
+   background-color: #faf9f9;
+   padding: 10px;
+   border-radius: 20px;
+   width: fit-content;
+   font-weight: 900;
+   text-transform: uppercase;
+   transition: 2s;
+}
+
+dt{
+   text-align: center;
+
+}
+ul{
+    list-style: none;
+}
+li,p{
+    font-size: 1.1em;
+    text-align: center;
+}
+
+footer{
+    position:fixed;
+    background-color:#e63946;
+    bottom: 0;
+    left:0;
+    width:100%;
+    text-align: center;
+    color: #ffffff;
+    padding:5px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+dd:hover {
+    background-color: #e63946;
+    color: #ffffff;
+    transition: 2s;
+    font-size: 1.3em;
+    padding: 40PX;
+    
+}
+
+ul{
+    background-color: #ffffff;
+    width: fit-content;
+    margin: auto;
+    padding:20px;
+    border-radius: 20px;
+}
+
+#cirrusL,#altoL,#stratusL,#cumulusL,#specialL {
+    border-radius: 20px;
+    height:600px
+}
+
+
+#cirrusL{
+    background: url(./Images/pexels-karolina-grabowska-4210908.jpg);
+
+}
+#altoL{
+    background: url(./Images/alto.jpg);
+    
+
+}#stratusL{
+    background: url(./Images/stratus.jpg);
+
+}#cumulusL{
+    background: url(./Images/cumulus.jpg);
+
+}#specialL{
+    background: url(./Images/fog2.jpeg);
+    /* color:#000000 */
+
+}
+
+
